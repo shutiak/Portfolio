@@ -6,9 +6,8 @@
 ---
 
 #### Pre-conditions:
-1. User is on the homepage: https://simply33food.com/en  
-2. The Log In / Registration page is opened: https://simply33food.com/en/my-account/  
-3. Registration form is available and functional  
+1. The Log In / Registration page is opened: https://simply33food.com/en/my-account/  
+2. Registration form is available and functional  
 
 ---
 
