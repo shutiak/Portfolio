@@ -18,7 +18,7 @@
 | Step | Action | Expected Result | Pass | Fail | Bug Report ID |
 |------|--------|------------------|------|------|----------------|
 | 1 | Enter invalid data:<br>• **Username or email address**: "nonexistinguser@gmail.com" | The field accepts the input |      |      |                |
-| 2 | Click "Reset password" button | Click "Reset password" button | A confirmation message is displayed: "A confirmation email has been sent." |      |      |                |
+| 2 | Click "Reset password" button | A confirmation message is displayed: "A confirmation email has been sent." |      |      |                |
 
 ---
 
