@@ -1,5 +1,5 @@
 
-# Test Plan: Simply33 Pizza Delivery Web Application
+# Test Plan: Pizzeria tesing
 
 **Project Name:** Prague Pizzeria   
 **Author:** Petro Shutiak  
