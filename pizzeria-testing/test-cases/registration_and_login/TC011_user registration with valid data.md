@@ -14,7 +14,7 @@
 | Step | Action | Expected Result |
 |------|--------|------------------|
 | 1 | Enter valid data:<br>• Username: "PetroQA"<br>• Email address: "petroshutiak@gmail.com"<br>• Password: "StrongPass123!" | All fields accept the input without showing validation errors |
-| 2 | Click "Register" or "Submit" button | User account is successfully created; success message is displayed or user is redirected to login/dashboard |
+| 2 | Click "Register" button | User account is successfully created; success message is displayed or user is redirected to login/dashboard |
 
 **Executor:** Petro Shutiak  
 **Date:** 12.06.2025
