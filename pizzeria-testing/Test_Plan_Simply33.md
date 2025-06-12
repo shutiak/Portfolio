@@ -52,10 +52,10 @@ This test plan covers the manual testing of the Simply33 Pizza Delivery web appl
 
 ## 5. Test Tools
 
-- Test Case Management: Google Sheets or Excel
-- Bug Tracking: Google Sheets or Jira (for simulation)
+- Test Case Management: GitHub
+- Bug Tracking: Jira
 - Browser DevTools
-- Postman (for limited API checks if applicable)
+- Postman
 - GitHub (Documentation Storage)
 
 ## 6. Test Deliverables
