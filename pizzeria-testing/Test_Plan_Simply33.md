@@ -1,7 +1,7 @@
 
 # Test Plan: Simply33 Pizza Delivery Web Application
 
-**Project Name:** Simply33 Pizza Delivery Website  
+**Project Name:** Prague Pizzeria   
 **Author:** Petro Shutiak  
 **Test Type:** Manual Testing  
 **Version:** 1.0  
