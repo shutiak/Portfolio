@@ -1,6 +1,6 @@
 ### Test Case ID: TC013  
 **Target Description**: Registration with invalid email format  
-**Suite**: Registration  
+**Suite**: Registration and Login
 **Type**: Negative / Validation  
 **Priority**: High  
 ---
