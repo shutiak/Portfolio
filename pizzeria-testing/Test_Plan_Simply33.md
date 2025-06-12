@@ -1,7 +1,7 @@
 
 # Test Plan: Pizzeria tesing
 
-**Project Name:** Prague Pizzeria   
+**Project Name:** Prague Pizzeria Simply33
 **Author:** Petro Shutiak  
 **Test Type:** Manual Testing  
 **Version:** 1.0  
