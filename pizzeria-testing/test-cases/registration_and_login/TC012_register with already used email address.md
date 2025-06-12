@@ -1,6 +1,6 @@
 ### Test Case ID: TC012  
 **Target Description**: Attempt to register with already used email address  
-**Suite**: Registration  
+**Suite**: Registration and Login
 **Type**: Negative / Validation  
 **Priority**: High  
 ---
