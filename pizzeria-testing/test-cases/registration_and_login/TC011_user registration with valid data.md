@@ -1,4 +1,4 @@
-### Test Case ID: TC000  
+### Test Case ID: TC011  
 **Target Description**: Successful user registration with valid data  
 **Suite**: Registration  
 **Type**: Functional  
