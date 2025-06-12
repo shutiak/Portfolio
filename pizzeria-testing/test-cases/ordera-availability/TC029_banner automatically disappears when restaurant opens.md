@@ -1,4 +1,4 @@
-### Test Case ID: TC030  
+### Test Case ID: TC029  
 **Target Description**: Verify that banner automatically disappears when restaurant opens  
 **Suite**: Ordering Time Restrictions  
 **Type**: Functional / Timing  
