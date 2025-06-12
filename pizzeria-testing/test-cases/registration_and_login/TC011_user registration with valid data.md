@@ -1,6 +1,6 @@
 ### Test Case ID: TC011  
 **Target Description**: Successful user registration with valid data  
-**Suite**: Registration  
+**Suite**: Registration and Login
 **Type**: Functional  
 **Priority**: High  
 ---
