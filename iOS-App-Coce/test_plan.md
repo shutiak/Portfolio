@@ -1,4 +1,4 @@
-# Test Plan: Coco Simple Budget Tracking App
+# Test Plan: Simple Budget Tracking App
 
 ## 1. Project Name
 Simple Budget Tracking App
@@ -14,73 +14,84 @@ Petr Shutiak
 
 ## 5. Scope of Testing
 
-The purpose of testing is to verify the correct functionality, usability, stability, and correctness of calculations in the Budget Tracking App on iOS platform (iPhone 14, iOS 18.5). The application allows users to:
+The purpose of testing is to verify the correct functionality, usability, data handling, and balance calculations of the Simple Budget Tracking App on iPhone 14 (iOS 18.5). 
 
-- Add income and mandatory expenses
-- See remaining balance after mandatory expenses
-- Track monthly remaining payments
-- Erase all data from the device
-- Work fully offline with local data storage
+The application is focused on allowing users to:
+
+- Add income and define mandatory expenses.
+- Automatically calculate remaining disposable balance after mandatory expenses.
+- Monitor how much of mandatory expenses are still unpaid during the month.
+- Store all data locally on the device without requiring user accounts or cloud sync.
+- Fully erase all user data on request.
+
+The application is intentionally simple, targeted at solving a very specific budgeting scenario with minimal complexity.
 
 ## 6. Features to be Tested
 
 | Feature | Description |
 | ------- | ----------- |
-| Installation | Verify installation via TestFlight |
-| First Launch | Verify first launch behavior |
-| Income Management | Adding, editing, deleting income |
-| Expense Management | Adding, editing, deleting expenses |
-| Balance Calculation | Correct balance after all operations |
-| Monthly Progress | Remaining mandatory payments tracking |
-| Data Deletion | Full data wipe function |
-| Privacy | Local data storage & privacy policy compliance |
-| UI/UX | Display correctness, responsiveness |
-| Negative Scenarios | Input validations & error handling |
+| Installation | Verify installation via TestFlight on iOS |
+| First Launch | Verify correct behavior on initial startup |
+| Income Entry | Adding, editing, deleting income records |
+| Mandatory Expenses Entry | Adding, editing, deleting mandatory expenses |
+| Balance Calculation | Correct calculation of remaining balance after all expenses |
+| Monthly Progress | Display remaining unpaid mandatory expenses for current month |
+| Data Deletion | Erase all stored data through user interface |
+| Data Persistence | Verify data is stored locally and remains after app restarts |
+| Privacy | Verify privacy policy availability and data storage scope |
+| UI/UX | Verify clarity, responsiveness, and usability on iPhone 14 |
+| Input Validation | Verify handling of invalid input values (negative, non-numeric, empty fields) |
 
 ## 7. Features Not to be Tested
 
-- Cloud synchronization (not implemented)
-- Multi-device data sharing (not implemented)
 - User authentication (not implemented)
+- Cloud synchronization (not implemented)
+- Multi-device data access (not implemented)
+- Any kind of analytics or integrations (not implemented)
 
 ## 8. Test Environment
 
-| Device | iOS Version | Platform |
-| ------ | ----------- | -------- |
-| iPhone 14 | iOS 18.5 | iOS |
+| Device | iOS Version | Installation Source |
+| ------ | ----------- | ------------------- |
+| iPhone 14 | iOS 18.5 | TestFlight |
 
-Other Environment Notes:
+Notes:
 
-- Local data only
-- TestFlight installation
+- All tests will be performed on real device.
+- No server or backend involved.
+- All data fully local.
 
 ## 9. Test Types
 
 - Functional Testing
-- UI/UX Testing
+- UI Testing
 - Usability Testing
-- Regression Testing
 - Negative Testing
-- Smoke Testing
 - Installation Testing
-- Privacy & Data Persistence Testing
+- Smoke Testing
+- Data Persistence Testing
+- Privacy & Data Deletion Testing
 
 ## 10. Test Deliverables
 
-- Test Cases (prepared separately)
-- Test Execution Results
-- Defect Reports
-- Test Summary Report
+- Test Case Suite (separate document)
+- Test Execution Logs
+- Defect Reports (if any)
+- Final Test Summary Report
 
 ## 11. Acceptance Criteria
 
-- All functional test cases pass.
-- No critical or high priority defects remain open.
-- Application performs as expected without crashes.
-- All calculations of balances are accurate.
+- All critical functional tests pass successfully.
+- Balance calculations are always accurate.
+- No data loss or corruption occurs during normal app usage.
+- App does not crash or freeze.
+- User data is fully deleted when requested.
+- Privacy policy is accessible.
+- Application works smoothly on target iOS device.
 
 ## 12. Risks and Assumptions
 
-- No backend/server dependency.
-- Sufficient device storage available.
-- TestFlight build is stable.
+- No network or cloud dependencies exist.
+- TestFlight build is stable and production-like.
+- Device storage is sufficient for testing.
+- App complexity intentionally limited (minimal feature set).
