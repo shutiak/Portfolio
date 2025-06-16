@@ -1,7 +1,7 @@
-# Test Plan: Coco Simple Budget Tracking App
+# Test Plan: Coco Simple Budget
 
 ## 1. Project Name
-Simple Budget Tracking App
+Coco Simple Budget
 
 ## 2. Test Plan Version
 v1.0
@@ -14,7 +14,7 @@ Petr Shutiak
 
 ## 5. Scope of Testing
 
-The purpose of testing is to verify the correct functionality, usability, data handling, and balance calculations of the Simple Budget Tracking App on iPhone 14 (iOS 18.5). 
+The purpose of testing is to verify the correct functionality, usability, data handling, and balance calculations of the Coco Simple Budget app on iPhone 14 (iOS 18.5).
 
 The application is focused on allowing users to:
 
