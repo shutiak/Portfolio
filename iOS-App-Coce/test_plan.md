@@ -1,4 +1,4 @@
-# Test Plan: Simple Budget Tracking App
+# Test Plan: Coco Simple Budget Tracking App
 
 ## 1. Project Name
 Simple Budget Tracking App
