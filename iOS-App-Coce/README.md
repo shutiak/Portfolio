@@ -23,4 +23,4 @@ The testing process is still ongoing as part of my continuous learning and portf
 
 ---
 
-> ⚠ Testing is actively maintained and regularly updated to reflect deeper QA coverage and simulate real-world QA processes.
+> ⚠ Testing is actively maintained and regularly updated to reflect deeper QA coverage.
